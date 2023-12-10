@@ -6,12 +6,12 @@ After scraping HTML, desired data is searched and parsed.\
 Processed data is converted to PDF, which is then send using Slack API to desired Slack channel.\
 Recipients can vote interactively which restaurant to go using buttons
 
-## Install
+## Install newest version of Python
 Python Download:\
 https://www.python.org/downloads/
 
 Dependencies are installed using requirements.txt:\
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 ## File modifications
 Go to https://api.slack.com/apps and create App.\
